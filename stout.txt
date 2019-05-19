@@ -1,0 +1,48 @@
+Is the map empty? true
+Current Map:
+______________
+apple = 12
+sithlord = 96
+passing = 7
+curve = 3
+______________
+Is the map empty? false
+Key "apple" currently has the value of: 12
+Removing "apple" was successful? true
+Can we remove "apple " again? false
+The value of "passing" via the map.get:7
+Now,  "apple" has a value of 13
+Is the map empty? false
+The map is 4 elements large.
+Using the .values method:
+______________
+13
+3
+7
+99
+9
+96
+______________
+Demo of the keyset being used alone:
+______________
+apple
+curve
+apricot
+pedantic
+passing
+sithlord
+______________
+
+true
+false
+Does the map contain the value 2? false
+How about 13?(should be true) true
+Final Map:
+______________
+apricot = 99
+pedantic = 9
+sithlord = 96
+passing = 7
+apple = 13
+curve = 3
+______________
